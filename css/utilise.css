@@ -1,0 +1,54 @@
+.text_center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+@keyframes slider1{
+    0%{
+        opacity: 0;
+    }
+    8%{
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    17%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    25%{
+       opacity: 0;
+       transform: scale(1.1); 
+    }
+    100%{
+        opacity:0% ;
+    }
+}
+
+.slider img{
+    height: 344px;
+    width: 834px;
+  
+}
+
+
+.crickimg{
+    height: 145px;
+    width: 145px;
+}
+.my-2{
+    margin:15px 0px;
+}
+.text-center{
+   text-align: center; 
+}
+ .my-1{ 
+     margin: 3px 0px; 
+}
